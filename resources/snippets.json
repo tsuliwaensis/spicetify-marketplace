@@ -340,5 +340,29 @@
     "description": "Adds Ash and Pikachu to your playback bar!",
     "code": ".player-controls .playback-progressbar::before { content: ''; width: 42px ; height: 42px; bottom: calc(100% - 7px); right: 10px; position: absolute; image-rendering: pixelated; background-size: 42px 42px ; background-image: url('https://i.giphy.com/mFYJZxzy2SFqC8YSWd.webp'); }",
     "preview": "resources/assets/snippets/pokemon-adventure.png"
+  },
+  {
+    "title": "Hide Friend Activity",
+    "description": "Hide the Friend Activity icon",
+    "code": "[aria-label='Friend Activity'] { display: none; }"
+    "preview": "resources/assets/snippets/hide-friends-activity-button.png"
+  },
+  {
+    "title": "Hide What's New",
+    "description": "Hide the What's New button on the home page",
+    "code": "[aria-label=\"What's New\"] {display: none;}"
+    "preview": "resources/assets/snippets/"
+  },
+  {
+    "title": "Hide Podcast Button",
+    "description": "Hide the Podcast button on the home page",
+    "code": "button[aria-label='Podcasts'] {display: none;}",
+    "preview": "resources/assets/snippets/"
+  },
+  {
+	  "title": "Hide Recently Played Sections",
+	  "description": "Hides recently played sections on the home page",
+	  "code": ".view-homeShortcutsGrid-shortcuts, section[aria-label='Recently Played'] {display: none;}",
+	  "preview": "resources/assets/snippets/remove-recently-played.png"
   }
 ]
